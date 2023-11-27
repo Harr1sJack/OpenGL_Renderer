@@ -1,0 +1,203 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "skeleton",
+            "scale" : [
+                0.20336845517158508,
+                0.20336845517158508,
+                0.20336845517158508
+            ],
+            "translation" : [
+                -0.010178379714488983,
+                3.327094078063965,
+                0.03146400675177574
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "material_0",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Object_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3,
+                        "TEXCOORD_2" : 4,
+                        "TEXCOORD_3" : 5,
+                        "TEXCOORD_4" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Normal",
+            "uri" : "Textures/Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Color",
+            "uri" : "Textures/Color.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 59722,
+            "max" : [
+                3.418957471847534,
+                9.790246963500977,
+                2.5571625232696533
+            ],
+            "min" : [
+                -3.350661039352417,
+                -16.35993194580078,
+                -1.6465177536010742
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 59722,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 59722,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 59722,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 59722,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 59722,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 59722,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 299397,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 716664,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 716664,
+            "byteOffset" : 716664
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 477776,
+            "byteOffset" : 1433328
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 477776,
+            "byteOffset" : 1911104
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 477776,
+            "byteOffset" : 2388880
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 477776,
+            "byteOffset" : 2866656
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 477776,
+            "byteOffset" : 3344432
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 598794,
+            "byteOffset" : 3822208
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 4421004,
+            "uri" : "skeleton.bin"
+        }
+    ]
+}
